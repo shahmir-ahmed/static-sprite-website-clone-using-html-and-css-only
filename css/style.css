@@ -1,0 +1,344 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Open Sans', sans-serif;
+    overflow-x: hidden;
+}
+
+.title{
+    background-color: black;
+    padding: 10px;
+    color: white;
+}
+
+#titdesc{
+    margin: 0px;
+    text-align: center;
+}
+
+header{
+    position: sticky;
+    top: 0px;
+    margin-bottom: 0px !important; 
+    /* box-sizing: border-box; */
+}
+
+.navbar{
+    background-color: rgb(204, 205, 186);
+    padding: 20px;
+    border-bottom: 2px solid black;
+}
+
+.navbar ul{
+    display: inline;/*Because ul, li both are block elments*/
+    /* margin-bottom: 0px !important; */
+}
+
+.navbar li{
+    display: inline;/*Because ul, li both are block elments*/
+    /* margin-bottom: 0px !important; */
+    margin: 30px 20px; /* Only left and right margin is applied because of inline display property */ 
+    list-style: none;
+}
+
+.navbar li a{
+    text-decoration: none;
+    color: black;
+}
+
+.navbar li a:hover{
+    color: white;
+}
+
+#rightsection{
+    /* display: inline; */
+    float: right;
+    /* position: relative; */
+    /* bottom: 7px; */
+    /* margin-bottom: 80%; */
+}
+
+.logo{
+    position: relative;
+    top: 10px;
+    left: 10px;
+}
+
+.logo span{
+    float: left;
+    font-size: 28px;
+    color: black;
+    font-style: italic;
+    font-weight: bold;
+    /* position: relative;
+    bottom: 10px;
+    left: 85px; */
+}
+
+.logo img{
+    float: left;
+    position: relative;
+    bottom: 5px;
+    /* right: 70px; */
+    /* bottom: 20px; */
+}
+
+/* #rightsection input{
+    padding: 10px;
+    width: 250px;
+    border-radius: 15px;
+} */
+
+#rightsection a{
+    text-decoration: none;
+    border-radius: 15px;
+    margin: 0px 5px;
+    color: white;
+    background-color: black;
+    padding: 8px 10px;
+}
+
+#rightsection a:hover{
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+}
+
+.chat{
+    position: fixed;
+    right: 20px;
+    bottom: 70px;
+    background-color: black;
+    height: 50px;
+    width: 50px;
+    border-radius: 30px;
+    color: white;
+    text-align: center;
+    line-height: 3em;
+    cursor: pointer;
+}
+
+/* .herovid{
+
+} */
+
+.hero{
+    margin-top: 0px;
+    height: 550px;
+    width: 100%;
+    background-image: url('./images/sprite-brand-page-desktop-1600x700.png');
+    background-repeat: no-repeat;
+    background-position-y: 20%;
+    background-size: cover;
+    background-attachment: scroll;
+}
+
+#herodesc{
+    /* float: left; */
+    /* position: absolute;
+    bottom: 150px;
+    left: 80px; */
+    width: 700px;
+    text-align: justify;
+    padding: 90px 20px 20px 20px;
+    /* margin-top: 50px; */
+    margin-left: 20px;
+    /* height: 200px; */
+}
+
+#herodesc p{
+    font-size: 20px;
+}
+
+#herodesc a{
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    padding: 12px;
+    border-radius: 20px;
+    font-size: 17px;
+    /* margin-top: 50px; */
+}
+
+#herodesc a:hover{
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+}
+
+.services{
+    clear: both;
+    padding: 50px;
+    text-align: center;
+    background-color: gainsboro;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+}
+.services img{
+    margin: 0px 70px;
+}
+
+.reason{
+    background-color: gainsboro;
+    box-sizing: border-box;
+    padding: 30px;
+    border-bottom: 2px solid black;
+}
+
+.reason h4{
+    margin: 0px;
+}
+
+#reason1, #reason2, #reason3, #reason4{
+    display: inline-block;
+    width: 22%;
+    margin: 0px 15px;
+}
+
+.contactus{
+    clear: both;
+    border-bottom: 2px solid black;
+    padding: 10px;
+    /* width: 100%; */
+    height: 500px;
+    text-align: center;
+    background-color: gainsboro;
+}
+
+.contactus input{
+    border-radius: 10px;
+    padding: 4px;
+    margin: auto;
+}
+
+.contactus span{
+    font-size: 20px;
+}
+
+.contactus .btn{
+    width: 80px;
+    padding: 3px 8px;
+    border-radius: 10px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+.contactus .btn:hover{
+    background-color: white;
+    color: black;
+}
+
+.contactus textarea{
+    border-radius: 10px;
+}
+
+
+/* footer #section1{
+    background-color: gainsboro;
+    width: 22%;
+    border-right: 2px solid black;
+    padding: 10px;
+    display: inline-block;
+} */
+
+ /* footer { */
+    /* margin: 0px; */
+    /* box-sizing: border-box; */
+    /* overflow: auto; */
+    /* height: auto; */
+/* } */
+/*
+footer ul{
+    margin: 0px;
+} */
+
+footer{
+    background-color: gainsboro;
+}
+
+footer li{
+    /* display: block; */ /* Kyunke upar nav wale main saray li ko inline hua wa tha*/
+    /* margin: 9px 0px; */
+    line-height: 2.8em;
+    list-style: none;
+}
+
+footer li a{
+    color: black;
+}
+
+footer li a:hover{
+    color: white;
+}
+
+/* footer #section1 ul li{
+    display: block;
+    margin: 5px 0px;
+} */
+
+a{
+    text-decoration: none;
+}
+
+#section1, #section2, #section3,#section5{
+    display: inline-block;
+    width: 19%;
+    /* height: 250px; */
+    height: 100%;
+    /* background-color: gainsboro; */
+    padding: 10px;
+    border-right: 2px solid black;
+}
+
+#section5{
+    /* width: 25.98%; */
+    width: 35%;
+    border-right: 2px solid black;
+}
+
+#section5 input{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 2px solid orange;
+}
+
+#section5 button:hover{
+    cursor: pointer;
+    color: white;
+    background-color: black;
+    border: 2px solid black;
+}
+
+.last{
+    background-color: gainsboro;
+    box-sizing: border-box;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    /* height: 70px; */
+    overflow: auto;
+}
+
+.logolast{
+    float: left;
+}
+
+.copyright{
+    float: right;
+    margin-top: 15px;
+    margin-right: 10px;
+}
+
+#developer{
+    color: indigo;
+    font-weight: bolder;
+    font-size: 20px;
+    font-style: italic;
+}
